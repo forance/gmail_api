@@ -61,9 +61,13 @@ def main():
     user = "nick.tang@shugie.com.tw"
   
     
-    mail_ID = readmail.ListMessagesMatchingQuery(service, user)
+    mail_ID = readmail.ListMessagesWithLabels(service, user)
  
-    print (mail_ID)
+    id = mail_ID[0].pop("id", "")
+    print(id)
+
+
+    readmail.GetMessage(service, user, id)
 
     # results = service.users().labels().list(userId='me').execute()
     # labels = results.get('labels', [])
