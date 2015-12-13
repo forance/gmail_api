@@ -1,0 +1,876 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sta",
+				"static	(settings.py)"
+			],
+			[
+				"we",
+				"web_qh"
+			],
+			[
+				"web",
+				"web_qh"
+			],
+			[
+				"lena",
+				"lens_material"
+			],
+			[
+				"utf",
+				"utf8	(views.py)"
+			],
+			[
+				"pi",
+				"pi_create_date	(models.py)"
+			],
+			[
+				"static",
+				"staticfiles"
+			],
+			[
+				"ST",
+				"STATIC_URL"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"creat",
+				"created_pi"
+			],
+			[
+				"save",
+				"save_new"
+			],
+			[
+				"item",
+				"item_name	(models.py)"
+			],
+			[
+				"ins",
+				"instance"
+			],
+			[
+				"form",
+				"formset	(views.py)"
+			],
+			[
+				"update",
+				"update_fields"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"commit",
+				"commit=False"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"cr",
+				"created_pi"
+			],
+			[
+				"pi_for",
+				"pi_formset"
+			],
+			[
+				"instane",
+				"instance=pi"
+			],
+			[
+				"create",
+				"created_pi_pi_formset"
+			],
+			[
+				"comm",
+				"commit=False"
+			],
+			[
+				"pi_",
+				"pi_form"
+			],
+			[
+				"que",
+				"queryset=queryset"
+			],
+			[
+				"Fi",
+				"FILES"
+			],
+			[
+				"Pi",
+				"PiItem"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"cre",
+				"created_pi"
+			],
+			[
+				"crea",
+				"created_pi〔variable〕"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"to",
+				"total_amount	(models.py)"
+			],
+			[
+				"g",
+				"get_object_or_404"
+			],
+			[
+				"sh",
+				"shortcuts	(views.py)"
+			],
+			[
+				"get",
+				"get_object	(views.py)"
+			],
+			[
+				"ite",
+				"items_pi"
+			],
+			[
+				"me",
+				"media	(settings.py)"
+			],
+			[
+				"Ite",
+				"Item_image	(views.py)"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"i",
+				"image"
+			],
+			[
+				"pri",
+				"product_id"
+			],
+			[
+				"pro",
+				"product_id	(list_item.html)"
+			],
+			[
+				"product",
+				"product	(models.py)"
+			],
+			[
+				"view",
+				"viewpi	(urls.py)"
+			],
+			[
+				"end",
+				"endfor	(list_item.html)"
+			],
+			[
+				"up",
+				"update_item"
+			],
+			[
+				"context",
+				"context〔variable〕"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"object",
+				"object_list	(list_item.html)"
+			],
+			[
+				"dec",
+				"description	(list_item.html)"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"in_",
+				"in_pi"
+			],
+			[
+				"Lis",
+				"ListItemView〔class〕"
+			],
+			[
+				"tem",
+				"template_name"
+			],
+			[
+				"o",
+				"object	(attribute, instance)"
+			],
+			[
+				"value",
+				"values	(settings.py)"
+			],
+			[
+				"new_",
+				"new_pi"
+			],
+			[
+				"new",
+				"new_pi"
+			],
+			[
+				"it",
+				"item_p"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"de",
+				"descrption"
+			],
+			[
+				"Add",
+				"AddItemView"
+			],
+			[
+				"__in",
+				"__init__〔function〕"
+			],
+			[
+				"A",
+				"AddItemView	(urls.py)"
+			],
+			[
+				"Crea",
+				"Create"
+			],
+			[
+				"Pr",
+				"ProductForm"
+			],
+			[
+				"refe",
+				"reference_id	(views.py)"
+			],
+			[
+				"pi_f",
+				"pi_formset"
+			],
+			[
+				"Pii",
+				"PiInlineFormset"
+			],
+			[
+				"refer",
+				"reference_id"
+			],
+			[
+				"PiI",
+				"PiItemForm	(form.py)"
+			],
+			[
+				"a",
+				"all"
+			],
+			[
+				"P",
+				"Pi〔class〕"
+			],
+			[
+				"null",
+				"null=True"
+			],
+			[
+				"Mo",
+				"ModelForm"
+			],
+			[
+				"co",
+				"Company"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"comp",
+				"Company"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"last_",
+				"last_id"
+			],
+			[
+				"Com",
+				"CompanyProfile"
+			],
+			[
+				"Coom",
+				"CompanyProfile_name"
+			],
+			[
+				"Co",
+				"Column"
+			],
+			[
+				"Contac",
+				"Contact"
+			],
+			[
+				"company",
+				"companyform"
+			],
+			[
+				"__",
+				"__unicode__"
+			],
+			[
+				"sp",
+				"sp_form"
+			],
+			[
+				"pn",
+				"pn_form"
+			],
+			[
+				"pho",
+				"phone"
+			],
+			[
+				"Phone",
+				"phone_number"
+			],
+			[
+				"phone",
+				"phone_number"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"fro",
+				"from_emial"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"EM",
+				"EMAIL_PORT"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"Si",
+				"SignUp"
+			],
+			[
+				"cle",
+				"cleaned_data"
+			],
+			[
+				"Sign",
+				"SignUpForm"
+			],
+			[
+				"S",
+				"SignUpForm"
+			],
+			[
+				"Sig",
+				"SignUpforms"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"aut",
+				"auto_now"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Channel"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nicktang/Desktop/web_qh/pi/views.py",
+		"/Users/nicktang/Desktop/web_qh/customer/views.py",
+		"/Users/nicktang/Desktop/web_qh/static/js/pi_jquery.js",
+		"/Users/nicktang/Desktop/web_qh/template/item-template.html",
+		"/Users/nicktang/Desktop/web_qh/product/form.py",
+		"/Users/nicktang/Desktop/web_qh/template/customer.html",
+		"/Users/nicktang/Desktop/web_qh/template/list_item.html",
+		"/Users/nicktang/Desktop/web_qh/template/PI.html",
+		"/Users/nicktang/Desktop/web_qh/template/registration/registration_form.html",
+		"/Users/nicktang/Desktop/web_qh/web_qh/urls.py",
+		"/Users/nicktang/Desktop/web_qh/template/item-template_sub.html",
+		"/Users/nicktang/Desktop/web_qh/template/nav_bar.html",
+		"/Users/nicktang/Desktop/web_qh/template/certification.html",
+		"/Users/nicktang/Desktop/web_qh/pi/models.py",
+		"/Users/nicktang/Desktop/web_qh/heroku_requirements.txt",
+		"/Users/nicktang/Desktop/web_qh/requirements.txt",
+		"/Users/nicktang/Desktop/web_qh/template/home.html",
+		"/Users/nicktang/Desktop/web_qh/web_qh/s3utils.py",
+		"/Users/nicktang/Desktop/web_qh/product/models.py",
+		"/Users/nicktang/Desktop/web_qh/template/add_item.html",
+		"/Users/nicktang/Desktop/web_qh/customer/urls.py",
+		"/Users/nicktang/Desktop/web_qh/product/views.py",
+		"/Users/nicktang/Desktop/web_qh/product/urls.py",
+		"/Users/nicktang/Desktop/web_qh/template/preview_pdf_base.html",
+		"/Users/nicktang/Desktop/web_qh/template/javascript.html",
+		"/Users/nicktang/Desktop/web_qh/template/css.html",
+		"/Users/nicktang/Desktop/web_qh/template/preview_pdf.html",
+		"/Users/nicktang/Desktop/web_qh/static/css/main.css",
+		"/Users/nicktang/Desktop/web_qh/template/base.html",
+		"/Users/nicktang/Desktop/web_qh/template/settings.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/home.html",
+		"/Users/nicktang/Desktop/web_qh/static/css/bootstrap.css",
+		"/Users/nicktang/Desktop/web_qh/static/css/navbar-static-top.css",
+		"/Users/nicktang/Desktop/web_qh/template/settings_modal.html",
+		"/Users/nicktang/Desktop/web_qh/product/migrations/0001_initial.py",
+		"/Users/nicktang/Desktop/web_qh/settings/admin.py",
+		"/Users/nicktang/Desktop/web_qh/settings/form.py",
+		"/Users/nicktang/Desktop/web_qh/settings/migrations/0001_initial.py",
+		"/Users/nicktang/Desktop/web_qh/settings/models.py",
+		"/Users/nicktang/Desktop/web_qh/settings/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/settings.html",
+		"/Users/nicktang/Desktop/web_qh/newsletter/views.py",
+		"/Users/nicktang/Desktop/web_qh/template/registration/activation_email.html",
+		"/Users/nicktang/Desktop/web_qh/web_qh/wsgi.py",
+		"/Users/nicktang/Desktop/web_qh/db.sqlite3",
+		"/Users/nicktang/Desktop/web_qh/customer/models.py",
+		"/Users/nicktang/Desktop/web_qh/pi/migrations/0001_initial.py",
+		"/Users/nicktang/Desktop/web_qh/customer/custom_field.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/preview_pdf_base.html",
+		"/Users/nicktang/Desktop/web_qh/static/js/ie10-viewport-bug-workaround.js.css",
+		"/Users/nicktang/Desktop/web_qh/template/search/indexes/customer/companyprofile_text.txt",
+		"/Users/nicktang/Desktop/trydjango/first_prj/first_prj/settings.py",
+		"/Users/nicktang/Desktop/web_qh/web_qh/settings.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/views.pyc",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/models.py",
+		"/Users/nicktang/Desktop/web_qh/manage.py",
+		"/Users/nicktang/Desktop/web_qh/pi/search_indexes.py",
+		"/Users/nicktang/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/nicktang/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/nicktang/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/nicktang/Desktop/web_qh/.db.sqlite3.swp",
+		"/Users/nicktang/Desktop/web_qh/pi/migrations/0002_auto_20150612_0022.py",
+		"/Users/nicktang/Desktop/web_qh/web_qh/web_qh.sublime-project",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/models.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/list_item.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/form.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/form.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/urls.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/item-template.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/tests.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/admin.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/PI.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/base.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/nav_bar.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/admin.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/addcustomer.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/first_prj/urls.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/add_item.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/media/media/12345.JPG",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/__init__.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/first_prj/wsgi.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/urls.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/models.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/product/search_indexes.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/search_indexes.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search/indexes/items/items_text.txt",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search/indexes/product/items_text.txt",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/customer.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search/search.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/search_indexes.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search/indexes/customer/contact_text.txt",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search/indexes/pi/pi_text.txt",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/javascript.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/form.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/fixtures/initial_pi_data.json",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/product.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/newsletter/form.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/our_static/js/jquery.min.js",
+		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/our_static/js/additem.js",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/tests.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search_old.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/__init__.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/addPI.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/search/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/first_prj/search_sites.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/search.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/search/form.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/search/models.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/our_static/css/navbar-static-top.css",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0011_pi.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/registration/activation_email.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/static_root/css/navbar-static-top.css",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/registration/registration_form.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/customer/__init__.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/template/css.html",
+		"/Users/nicktang/Desktop/trydjango/first_prj/newsletter/models.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/newsletter/views.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0006_auto_20150607_2126.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0005_auto_20150607_2017.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0004_auto_20150607_0741.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0001_initial.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/newsletter/admin.py",
+		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/our_static/img/ex.txt",
+		"/Users/nicktang/Documents/ShuGie_Local/shugie embeded vidoe.txt",
+		"/Users/nicktang/Desktop/workplace/src/newsletter/views.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/nicktang/Desktop/web_qh",
+			"/Users/nicktang/Desktop/trydjango/first_prj/",
+			"/Users/nicktang/Desktop/trydjango/first_prj/pi"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"crispy",
+			"crispy_forms",
+			"whoosh",
+			"newsletter",
+			"home",
+			"newsletter",
+			"block jquery",
+			"AWS_ACCESS_KEY_ID",
+			"{% static",
+			"STATICFILES_DIRS",
+			"font-face",
+			"Item_image",
+			"addcustomer.html",
+			"myjquery.js",
+			"java",
+			"myjquery.js",
+			"tablesorter.min.js",
+			"hello",
+			"halflings",
+			"add-lens_material",
+			"LensMaterial",
+			"Lens Color",
+			"lens_color",
+			"LensColor",
+			"lens_color",
+			"LensColor",
+			"lenscolor",
+			"Lens Color",
+			"STSong.ttf",
+			"first",
+			"customer_shipment",
+			"localhost",
+			"EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+			"sign",
+			":\n",
+			"print",
+			"PiInlineFormset",
+			"update_ref_id",
+			"print",
+			"form",
+			"print",
+			"()\n",
+			"pi_form",
+			"		\n",
+			"print",
+			"pi_date",
+			"POST",
+			"pi_formset",
+			"ave new",
+			")\n",
+			"Nono",
+			"AUTH_",
+			"instance",
+			"		print pi.get_pi_sum",
+			"block.super",
+			"core.context_processors.static",
+			"TEMPLATE_CONTEXT_PROCESSORS",
+			"piitem",
+			"item",
+			"items",
+			"Items",
+			"ContactIndex",
+			"product",
+			" \n",
+			"UpdateViewd",
+			"pi_items.description",
+			"model",
+			"object_list",
+			"\n	def get_queryset(self):\n		print self.request.GET\n		product_id = self.request.GET.get('product_id')\n		print product_id\n		#return \n",
+			"vender",
+			")\n",
+			"new_pi",
+			"   <div id=\"items-form-container\">\n   <!--  {% for item_form in item_forms %}\n        <div id=\"item-{{ forloop.counter0 }}\"> -->\n           <!--       {{ item_form.id }} -->\n            <!-- {{ item_form.empty_form|crispy }} -->\n   <!--      </div>\n    {% endfor %} -->\n\n</div>",
+			"      <!--       <li class=\"dropdown\">\n              <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n              <ul class=\"dropdown-menu\" role=\"menu\">\n                <li><a href=\"#\">Action</a></li>\n                <li><a href=\"#\">Another action</a></li>\n                <li><a href=\"#\">Something else here</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">Nav header</li>\n                <li><a href=\"#\">Separated link</a></li>\n                <li><a href=\"#\">One more separated link</a></li>\n              </ul>\n            </li> -->",
+			"all",
+			"		",
+			"reference_id",
+			"RequestConfig",
+			"item-template",
+			"tab",
+			"prodcut",
+			"	\n",
+			"id_companyprofile",
+			"from",
+			"hi",
+			"welcome",
+			"pi",
+			"%}\n",
+			"-->",
+			"contactinlineformset",
+			"Company",
+			"CompanyProfile",
+			":\n",
+			"sign",
+			"fluid",
+			"contai",
+			"admin",
+			"DateTimeField",
+			"form",
+			", ",
+			"   \n",
+			"context",
+			"Form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Lens Material",
+			"LensMaterial",
+			"lens_material",
+			"CompanyProfile",
+			"Company"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/nicktang/Desktop/trydjango/first_prj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true
+}
