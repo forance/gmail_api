@@ -432,9 +432,18 @@
 	"buffers":
 	[
 		{
+			"file": "quickstart.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 24,
 				"line_ending": "Unix"
 			}
 		}
@@ -503,6 +512,7 @@
 	},
 	"file_history":
 	[
+		"/Users/nicktang/gmail_api/requirements",
 		"/Users/nicktang/Desktop/web_qh/pi/views.py",
 		"/Users/nicktang/Desktop/web_qh/customer/views.py",
 		"/Users/nicktang/Desktop/web_qh/static/js/pi_jquery.js",
@@ -629,8 +639,7 @@
 		"/Users/nicktang/Desktop/trydjango/first_prj/pi/migrations/0001_initial.py",
 		"/Users/nicktang/Desktop/trydjango/first_prj/newsletter/admin.py",
 		"/Users/nicktang/Desktop/trydjango/first_prj/trystatic/our_static/img/ex.txt",
-		"/Users/nicktang/Documents/ShuGie_Local/shugie embeded vidoe.txt",
-		"/Users/nicktang/Desktop/workplace/src/newsletter/views.py"
+		"/Users/nicktang/Documents/ShuGie_Local/shugie embeded vidoe.txt"
 	],
 	"find":
 	{
@@ -781,9 +790,38 @@
 			[
 				{
 					"buffer": 0,
+					"file": "quickstart.py",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 568.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "requirements.txt",
+					"settings":
+					{
+						"buffer_size": 24,
 						"regions":
 						{
 						},
@@ -868,7 +906,7 @@
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 276.0,
