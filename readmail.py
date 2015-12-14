@@ -96,10 +96,10 @@ def GetMessage(service, user_id, msg_id):
   """
   try:
     message = service.users().messages().get(userId=user_id, id=msg_id).execute()
-    payload = message['payload']
-    parts = payload['parts']
+    # payload = message['payload']
+    # parts = payload['parts']
 
-    print 'Message snippet: %s' %base64.urlsafe_b64decode(parts[0]["body"]["data"].encode("utf-8"))
+    # print 'Message snippet: %s' %base64.urlsafe_b64decode(parts[0]["body"]["data"].encode("utf-8"))
 
     return message
   except errors.HttpError, error:

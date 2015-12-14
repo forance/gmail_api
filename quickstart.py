@@ -61,7 +61,7 @@ def main():
     user = "nick.tang@shugie.com.tw"
   
     
-    mail_ID = readmail.ListMessagesWithLabels(service, user)
+    mail_ID = readmail.ListMessagesWithLabels(service, user, label_ids='INBOX')
  
     id = mail_ID[0].pop("id", "")
     print(id)
