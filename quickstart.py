@@ -49,6 +49,15 @@ def get_credentials():
         print('Storing credentials to ' + credential_path)
     return credentials
 
+
+def item_gen(li, key):
+    for i in range(0, len(li)):
+        yield [li[i].pop(key," ")]
+
+
+
+
+
 def main():
     """Shows basic usage of the Gmail API.
 
@@ -61,13 +70,18 @@ def main():
     user = "nick.tang@shugie.com.tw"
   
     
-    mail_ID = readmail.ListMessagesWithLabels(service, user, label_ids='INBOX')
- 
-    id = mail_ID[0].pop("id", "")
-    print(id)
+    mail_ID = readmail.ListMessagesWithLabels(service, user, label_ids='INBOX', single_page=True)
+    # print (mail_ID) 
 
+    ids = []
 
-    readmail.GetMessage(service, user, id)
+    for i in item_gen(mail_ID,"id"):
+        ids.extend(i)
+
+        
+   
+    for i in range(0, len(ids)): 
+        readmail.GetMessage(service, user, ids[i])
 
     # results = service.users().labels().list(userId='me').execute()
     # labels = results.get('labels', [])
