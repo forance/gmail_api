@@ -9,7 +9,7 @@ from apiclient import errors
 
 
 
-def ListMessagesMatchingQuery(service, user_id, query=''):
+def ListMessagesMatchingQuery(service, user_id, query='', **kwargs):
   """List all Messages of the user's mailbox matching the query.
 
   Args:
@@ -24,6 +24,9 @@ def ListMessagesMatchingQuery(service, user_id, query=''):
     returned list contains Message IDs, you must use get with the
     appropriate ID to get the details of a Message.
   """
+  
+  single_page = kwargs.pop('single_page', False)
+
   try:
     response = service.users().messages().list(userId=user_id,
                                                q=query).execute()
@@ -31,18 +34,19 @@ def ListMessagesMatchingQuery(service, user_id, query=''):
     if 'messages' in response:
       messages.extend(response['messages'])
 
-    while 'nextPageToken' in response:
-      page_token = response['nextPageToken']
-      response = service.users().messages().list(userId=user_id, q=query,
+    if not single_page:
+      while 'nextPageToken' in response:
+        page_token = response['nextPageToken']
+        response = service.users().messages().list(userId=user_id, q=query,
                                          pageToken=page_token).execute()
-      messages.extend(response['messages'])
+        messages.extend(response['messages'])
 
     return messages
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
 
-def ListMessagesWithLabels(service, user_id, label_ids=[]):
+def ListMessagesWithLabels(service, user_id, label_ids=[], **kwargs):
   """List all Messages of the user's mailbox with label_ids applied.
 
   Args:
@@ -56,6 +60,8 @@ def ListMessagesWithLabels(service, user_id, label_ids=[]):
     returned list contains Message IDs, you must use get with the
     appropriate id to get the details of a Message.
   """
+  single_page = kwargs.pop('single_page', False)
+
   try:
     response = service.users().messages().list(userId=user_id,
                                                labelIds=label_ids).execute()
@@ -63,12 +69,13 @@ def ListMessagesWithLabels(service, user_id, label_ids=[]):
     if 'messages' in response:
       messages.extend(response['messages'])
 
-    while 'nextPageToken' in response:
-      page_token = response['nextPageToken']
-      response = service.users().messages().list(userId=user_id,
+    if not single_page:
+      while 'nextPageToken' in response:
+        page_token = response['nextPageToken']
+        response = service.users().messages().list(userId=user_id,
                                                  labelIds=label_ids,
                                                  pageToken=page_token).execute()
-      messages.extend(response['messages'])
+        messages.extend(response['messages'])
 
     return messages
   except errors.HttpError, error:
@@ -92,7 +99,10 @@ def GetMessage(service, user_id, msg_id):
   """
   try:
     message = service.users().messages().get(userId=user_id, id=msg_id).execute()
+    # payload = message['payload']
+    # parts = payload['parts']
 
+    # print 'Message snippet: %s' %base64.urlsafe_b64decode(parts[0]["body"]["data"].encode("utf-8"))
     print 'Message snippet: %s' % message['snippet']
 
     return message

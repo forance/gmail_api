@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mail",
+				"mail_ID〔variable〕"
+			],
+			[
+				"read",
+				"reamail〔module〕"
+			],
+			[
 				"sta",
 				"static	(settings.py)"
 			],
@@ -432,9 +440,19 @@
 	"buffers":
 	[
 		{
+			"file": "quickstart.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2639,
+				"line_ending": "Unix",
+				"name": "from __future__ import print_function"
+			}
+		},
+		{
+			"file": "readmail.py",
+			"settings":
+			{
+				"buffer_size": 4349,
 				"line_ending": "Unix"
 			}
 		}
@@ -651,6 +669,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
 			"crispy",
 			"crispy_forms",
 			"whoosh",
@@ -781,25 +800,59 @@
 			[
 				{
 					"buffer": 0,
+					"file": "quickstart.py",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1938,
+								1938
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_complete": false,
+							"auto_name": "from __future__ import print_function",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 644.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readmail.py",
+					"settings":
+					{
+						"buffer_size": 4349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								902,
+								902
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 670.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -868,7 +921,7 @@
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 276.0,
