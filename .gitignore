@@ -14,3 +14,5 @@ readmail.pyc
 
 readmail.pyc
 readmail.pyc
+
+*.pyc
