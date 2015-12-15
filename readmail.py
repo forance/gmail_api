@@ -103,9 +103,9 @@ def GetMessage(service, user_id, msg_id):
     # parts = payload['parts']
 
     # print 'Message snippet: %s' %base64.urlsafe_b64decode(parts[0]["body"]["data"].encode("utf-8"))
-    print 'Message snippet: %s' % message['snippet']
+    # print 'Message snippet: %s' % message['snippet']
 
-    return message
+    return message['snippet']
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 
