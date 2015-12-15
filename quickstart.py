@@ -7,7 +7,7 @@ import oauth2client
 from oauth2client import client
 from oauth2client import tools
 
-import readmail
+import readmail, gsheet
 
 
 try:
@@ -68,7 +68,9 @@ def main():
     http = credentials.authorize(httplib2.Http())
     service = discovery.build('gmail', 'v1', http=http)
     user = "nick.tang@shugie.com.tw"
-  
+
+    worksheet_name = "Prediction Spreadsheet"
+    sheet = "Prediction API Worksheet"
     
     mail_ID = readmail.ListMessagesWithLabels(service, user, label_ids='INBOX', single_page=True)
     # print (mail_ID) 
@@ -78,10 +80,14 @@ def main():
     for i in item_gen(mail_ID,"id"):
         ids.extend(i)
 
-        
+
+    worksheet = gsheet.open_gsheet(worksheet_name, sheet)
    
-    for i in range(0, len(ids)): 
-        readmail.GetMessage(service, user, ids[i])
+    for i in range(0, len(ids)):
+        msg = readmail.GetMessage(service, user, ids[i])
+        worksheet.update_cell(i+19, 3, msg) 
+
+
 
     # results = service.users().labels().list(userId='me').execute()
     # labels = results.get('labels', [])
