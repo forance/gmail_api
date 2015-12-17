@@ -83,6 +83,27 @@ def ListMessagesWithLabels(service, user_id, label_ids=[], **kwargs):
 
 
 
+def find_valid_body(payload):
+  '''
+    recursive function to find the message body which is not zero
+    in the gmail api, "payload" is dictionary, "body" is dictionary
+    "parts" is list
+
+     payload -- body {"data", "size"}
+              | 
+              -- parts[0] -- body {"data", "size"}
+                          |
+                          -- parts[0]
+
+  '''
+  if payload["body"]["size"] != 0:
+    # print 'Message snippet: %s' %base64.urlsafe_b64decode(payload["body"]["data"].encode("utf-8"))
+    return payload["body"]["size"] 
+  else:
+    return find_valid_body(payload["parts"][0])
+
+
+
 
 
 def GetMessage(service, user_id, msg_id):
@@ -98,14 +119,22 @@ def GetMessage(service, user_id, msg_id):
     A Message.
   """
   try:
-    message = service.users().messages().get(userId=user_id, id=msg_id).execute()
-    # payload = message['payload']
+    message = service.users().messages().get(userId=user_id, id=msg_id, format='full').execute()
+    payload = message['payload']
     # parts = payload['parts']
-
     # print 'Message snippet: %s' %base64.urlsafe_b64decode(parts[0]["body"]["data"].encode("utf-8"))
-    # print 'Message snippet: %s' % message['snippet']
+    # print 'Message body size: %s' %parts["body"]["size"]
+    # print 'Message id: %s' %message["id"]
+    # print 'Message id: %s' %message["snippet"]
+    # print 'attachment: %s' %len(payload["parts"])
+    # for i, d in enumerate(payload["parts"][1]["headers"]):
+    #   if "attachment" in d["value"]:
+    #     attachment = True
 
-    return message['snippet']
+    size = find_valid_body(payload)
+    return message['snippet'], size
+
+
   except errors.HttpError, error:
     print 'An error occurred: %s' % error
 

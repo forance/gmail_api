@@ -72,7 +72,12 @@ def main():
     worksheet_name = "Prediction Spreadsheet"
     sheet = "Prediction API Worksheet"
     
+    query = 'filename:pdf OR filename:jpg OR filename:jpeg OR filename:xlsx'
+    mail_attchement = readmail.ListMessagesMatchingQuery(service, user, label_ids='INBOX',query=query, single_page=True)
+    # print(mail_attchement)
+
     mail_ID = readmail.ListMessagesWithLabels(service, user, label_ids='INBOX', single_page=True)
+    # print ("attachment %s" %readmail.ListMessagesMatchingQuery(service, user, query=query, single_page=True))
     # print (mail_ID) 
 
     ids = []
@@ -80,12 +85,25 @@ def main():
     for i in item_gen(mail_ID,"id"):
         ids.extend(i)
 
-
     worksheet = gsheet.open_gsheet(worksheet_name, sheet)
    
+    attachment_list = [d['id'] for d in mail_attchement if 'id' in d]
+    
+
+
     for i in range(0, len(ids)):
-        msg = readmail.GetMessage(service, user, ids[i])
-        worksheet.update_cell(i+19, 3, msg) 
+        '''
+         i is the index
+         attachment_list is the list of email's ID which has attachment (jpg,jpeg, pdf and xlsx) 
+        '''
+        attachment = False
+        if ids[i] in attachment_list:
+            attachment = True
+
+        msg, size = readmail.GetMessage(service, user, ids[i])
+        worksheet.update_cell(i+5, 3, msg) 
+        worksheet.update_cell(i+5, 4, size)
+        worksheet.update_cell(i+5, 5, attachment)  
 
 
 
