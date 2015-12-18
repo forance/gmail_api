@@ -89,7 +89,7 @@ def main():
    
     attachment_list = [d['id'] for d in mail_attchement if 'id' in d]
     
-
+    starting_row = 108
 
     for i in range(0, len(ids)):
         '''
@@ -101,9 +101,9 @@ def main():
             attachment = True
 
         msg, size = readmail.GetMessage(service, user, ids[i])
-        worksheet.update_cell(i+5, 3, msg) 
-        worksheet.update_cell(i+5, 4, size)
-        worksheet.update_cell(i+5, 5, attachment)  
+        worksheet.update_cell(i+starting_row, 3, msg) 
+        worksheet.update_cell(i+starting_row, 4, size)
+        worksheet.update_cell(i+starting_row, 6, attachment)  
 
 
 
