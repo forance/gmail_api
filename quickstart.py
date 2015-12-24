@@ -64,6 +64,7 @@ def main():
     Creates a Gmail API service object and outputs a list of label names
     of the user's Gmail account.
     """
+
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
     service = discovery.build('gmail', 'v1', http=http)
@@ -89,7 +90,7 @@ def main():
    
     attachment_list = [d['id'] for d in mail_attchement if 'id' in d]
     
-    starting_row = 108
+    starting_row = 134
 
     for i in range(0, len(ids)):
         '''
